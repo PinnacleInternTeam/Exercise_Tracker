@@ -21,6 +21,10 @@ export default function Create() {
         <form>
             <div className='container'>
                 <div>
+                    <h1>Create User</h1>
+                </div>
+               
+                <div>
                 <label>UserName</label><br></br>
                 <input type="text" className='form-control' onChange={(e)=>setUser(e.target.value)}></input>
                 </div>

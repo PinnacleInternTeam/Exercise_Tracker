@@ -15,6 +15,7 @@ import List from './components/List'
 import CreateUser from './components/CreateUser'
 import Edit from './components/Edit';
 import Create from './components/Create';
+// import Login from './components/Login';
 
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
 
   return (
    < Router>
-
     <Navbar bg="dark" expand="lg">
        <Container>
          <Navbar.Brand href="/" className="h3 text-danger">My APP</Navbar.Brand>
@@ -46,6 +46,7 @@ function App() {
                   <Route exact path='/:edit' element={<Edit/>}></Route>
                   <Route exact path='/create' element={<CreateUser/>}></Route>
                   <Route exact path='/createusr' element={<Create/>}></Route>
+                  {/* <Route exact path='/Login' element={<Login/>}></Route> */}
            </Routes>
            
         </Router>
