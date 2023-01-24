@@ -1,0 +1,17 @@
+.btn{
+    background-color: brown;
+    color: black;
+    border-style: dotted;
+}
+.btnr{
+    background-color: rgb(207, 123, 123);
+    color: black;
+    border-style: dotted;
+    border-radius: 7%;
+}
+.container{
+    border-style:initial;
+}
+.bck{
+    background-image: url('../assets/download.png');
+}
