@@ -14,6 +14,7 @@ import {
 import List from './components/List'
 import CreateUser from './components/CreateUser'
 import Edit from './components/Edit';
+import Create from './components/Create';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
               <Link to="/List" className="text-decoration-none text-danger mx-4">List</Link> 
              <Link to="/edit" className="text-decoration-none text-danger mx-4">Edit</Link>
              <Link to="/create" className="text-decoration-none text-danger mx-4">Create Exercise log</Link>
-             <Link to="/create" className="text-decoration-none text-danger mx-4">Create user</Link>
+             <Link to="/createusr" className="text-decoration-none text-danger mx-4">Create user</Link>
             
            </Nav>
          </Navbar.Collapse>
@@ -44,6 +45,7 @@ function App() {
                   <Route exact path='/List' element={<List/>}></Route>
                   <Route exact path='/:edit' element={<Edit/>}></Route>
                   <Route exact path='/create' element={<CreateUser/>}></Route>
+                  <Route exact path='/createusr' element={<Create/>}></Route>
            </Routes>
            
         </Router>
